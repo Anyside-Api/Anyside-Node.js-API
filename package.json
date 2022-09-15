@@ -1,0 +1,23 @@
+{
+  "name": "anyside",
+  "version": "1.0.0",
+  "description": "Anyside Node Api",
+  "main": "(main.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyside-Api/Anyside-Node.js-API.git"
+  },
+  "keywords": [
+    "Node",
+    "anyside"
+  ],
+  "author": "Anyside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anyside-Api/Anyside-Node.js-API/issues"
+  },
+  "homepage": "https://github.com/Anyside-Api/Anyside-Node.js-API#readme"
+}
