@@ -18,7 +18,7 @@ class Anyside {
 
     async lookupWallet(walletAddress) {
         try {
-            let response = await this.instance.post(`/lookupWallet`,{JSON:{"wallet_address":walletAddress,"api_key":this.apiKey}});
+            let response = await this.instance.post(`/lookupWallet`,{"wallet_address":walletAddress,"api_key":this.apiKey});
             return response.data
         } catch (error) {
             return error.response.data

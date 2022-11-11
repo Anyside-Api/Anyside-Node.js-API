@@ -44,7 +44,7 @@ let anyside  = new Anyside(apiKey='YOUR API KEY');
 If you use `require` for importing, **only default export is available**:
 
 ```javascript
-const Anyside = require('anyside');
+const {Anyside} = require('anyside');
 
 let anyside  = new Anyside(apiKey='YOUR API KEY');
 ```
