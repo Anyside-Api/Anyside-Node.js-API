@@ -1,8 +1,10 @@
-const axios = require('axios');
+try{
+    const axios = require('axios');
+} catch (error){};
 
 class Anyside {
     constructor(apiKey=null) {
-        this.apiEndpoint = "https://us-central1-test-anyside.cloudfunctions.net/api/public";
+        this.apiEndpoint = "https://anyside.com";
         this.apiKey = apiKey
         this.instance = axios.create({baseURL:this.apiEndpoint})
     }
@@ -27,5 +29,8 @@ class Anyside {
 
 }
 
-module.exports.Anyside = Anyside;
+try{
+    module.export.Anyside = Anyside;
+} catch (error){};
+
 
