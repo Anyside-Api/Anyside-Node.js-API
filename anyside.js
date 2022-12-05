@@ -1,10 +1,10 @@
 try{
-    const axios = require('axios');
+    var axios = require('axios');
 } catch (error){};
 
 class Anyside {
     constructor(apiKey=null) {
-        this.apiEndpoint = "https://anyside.com";
+        this.apiEndpoint = "https://anyside.com/public";
         this.apiKey = apiKey
         this.instance = axios.create({baseURL:this.apiEndpoint})
     }
@@ -30,7 +30,7 @@ class Anyside {
 }
 
 try{
-    module.export.Anyside = Anyside;
+    module.exports.Anyside = Anyside;
 } catch (error){};
 
 
