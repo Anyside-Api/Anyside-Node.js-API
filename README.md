@@ -57,7 +57,6 @@ Using jsDelivr CDN (ES5 UMD browser module):
 ```html
 <script
   src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
-  ,
   type="module"
 ></script>
 <script src="https://cdn.jsdelivr.net/npm/anyside@1.0.9/anyside.js"></script>
@@ -68,7 +67,6 @@ Using unpkg CDN:
 ```html
 <script
   src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
-  ,
   type="module"
 ></script>
 <script src="https://unpkg.com/anyside@1.0.9/anyside.js"></script>
