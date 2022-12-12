@@ -59,7 +59,7 @@ Using jsDelivr CDN (ES5 UMD browser module):
   src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
   type="module"
 ></script>
-<script src="https://cdn.jsdelivr.net/npm/anyside@1.0.17/anyside.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/anyside@1.0.18/anyside.js"></script>
 ```
 
 Using unpkg CDN:
@@ -69,7 +69,7 @@ Using unpkg CDN:
   src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
   type="module"
 ></script>
-<script src="https://unpkg.com/anyside@1.0.17/anyside.js"></script>
+<script src="https://unpkg.com/anyside@1.0.18/anyside.js"></script>
 ```
 
 ## Example Query Domain

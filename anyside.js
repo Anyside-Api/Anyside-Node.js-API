@@ -4,7 +4,7 @@ try{
 
 class Anyside {
     constructor(apiKey=null) {
-        this.apiEndpoint = "https://anyside.com/public";
+        this.apiEndpoint = "https://api.anyside.com/public";
         this.apiKey = apiKey
         this.instance = axios.create({baseURL:this.apiEndpoint})
     }
